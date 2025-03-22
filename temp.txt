@@ -1,0 +1,22 @@
+Recommendations to Enhance Your CLI Calculator:
+
+    Refactor Code into Functions: Break down your code into smaller, reusable functions. This will make your code more readable and maintainable.
+
+    Input Validation: Add input validation to ensure that the user enters valid numbers and operators.
+
+    Support for More Operations: Add support for more mathematical operations like modulus (%), exponentiation (^), etc.
+
+    History Feature: Implement a history feature that stores the last N calculations and allows the user to view them.
+
+    Interactive Mode: Instead of asking the user if they want to continue after each operation, you could make the calculator interactive, where the user can keep entering operations until they decide to quit.
+
+    Command-Line Arguments: Allow the user to pass arguments directly from the command line. For example, ./calc 2 + 3 should output 5.
+
+    Unit Tests: Write unit tests for your calculator functions. Go has a built-in testing package that makes it easy to write and run tests.
+
+    Error Handling: Improve error handling. For example, if the user enters an invalid operator, you could prompt them to enter a valid one instead of just printing "Invalid operator".
+
+    Decimal Precision: Allow the user to specify the precision of the output (e.g., number of decimal places).
+
+    Colorful Output: Use ANSI escape codes to add some color to your CLI output, making it more user-friendly.
+    
